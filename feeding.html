@@ -4,17 +4,8 @@
       <meta charset="UTF-8">
       <link rel="stylesheet" type="text/css" href="style/style.css" />
       <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-      <!-- <script type="text/javascript" src="javascript/popup.js"></script> -->
    </head>
    <body>
-<script type="text/javascript">
-   $('#enter img').hover(function(){
-    this.src = "style/image/TestImage.png";
-},function(){
-    this.src = "style/image/feeding/feeding_2.jpg";
-});
-</script>
-
       <div id="content">
          <header>
             <div id="logo">
@@ -112,5 +103,16 @@
             Valeria Rusu &copy; 2022 
          </footer>
       </div>
+      <script type="text/javascript">
+         $('img').hover(function() {
+
+            $(this).css('width', '500px');
+            $(this).css('height', '500px');
+         }, function() {
+
+            $(this).css('width', '200px');
+            $(this).css('height', '200px');
+         })
+      </script>
    </body>
 </html>
