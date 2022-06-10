@@ -3,8 +3,18 @@
       <title>Кормление</title>
       <meta charset="UTF-8">
       <link rel="stylesheet" type="text/css" href="style/style.css" />
+      <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <!-- <script type="text/javascript" src="javascript/popup.js"></script> -->
    </head>
    <body>
+<script type="text/javascript">
+   $('#enter img').hover(function(){
+    this.src = "style/image/TestImage.png";
+},function(){
+    this.src = "style/image/feeding/feeding_2.jpg";
+});
+</script>
+
       <div id="content">
          <header>
             <div id="logo">
@@ -34,7 +44,7 @@
                 <article>
                    <h1 style="font-weight: bold;">Топ кормов</h1>
                    <h2>Fiory</h2>
-                  <img src="style/image/feeding/feeding_2.jpg" style="float:left;width:200px; height:250px">
+                  <img id="enter" src="style/image/feeding/feeding_2.jpg" style="float:left;width:200px; height:250px">
                   <p>&nbsp&nbsp&nbsp&nbsp
                      Первое место в рейтинге достаётся корму итальянской марки Fiory. 
                      В состав специально разработанной смеси входят различные мелкие семена, в том числе просо, овёс, лён, канареечник. 
@@ -70,7 +80,7 @@
                      Особенностью марки является удобная многоразовая упаковка с "окошком", позволяющим рассмотреть корм до покупки, не вскрывая его.
                   </p>
                   <h2>Cliffy</h2>
-                  <img src="style/image/feeding/feeding_6.jpg" style="float:left;width:200px; height:250px">
+                  <img src="style/image/feeding/feeding_6.jpg" style="float:left;width:200px; height:250px"/>
                   <p>&nbsp&nbsp&nbsp&nbsp
                      Рецепт этой смеси от компании Cliffy был разработан специалистами Института Орнитологии Италии и включает зёрно, злаки, фрукты и овощи наивысшего качества,
                       а также хлебобулочные изделия и мёд. Тщательно выверенный баланс питательных веществ, витаминов и минеральных солей обеспечит попугаю здоровье на протяжении долгих лет. 
