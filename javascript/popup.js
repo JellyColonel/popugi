@@ -1,5 +1,13 @@
-$('img').hover(function(){
-    this.src = "style/image/TestImage.png";
-},function(){
-    this.src = "style/image/feeding/feeding_2.jpg";
-});
+$(document).ready(function() {
+   
+    $('img#pop').hover(function() {
+
+       $(this).css('width', '500px');
+       $(this).css('height', '500px');
+    }, function() {
+
+       $(this).css('width', '200px');
+       $(this).css('height', '250px');
+    });
+    
+ });
